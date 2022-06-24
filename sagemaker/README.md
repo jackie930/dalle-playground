@@ -1,4 +1,4 @@
-# deploy car-damage model
+# deploy
 
 ## deploy on cloud
 
