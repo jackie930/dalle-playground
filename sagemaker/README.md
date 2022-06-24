@@ -40,4 +40,4 @@ CPU times: user 57.1 ms, sys: 1.88 ms, total: 59 ms
 Wall time: 2.03 s
 
 ```
-![image](https://github.com/jackie930/t5-pegasus-textsummary/blob/main/1.png)
+![image](https://github.com/jackie930/dalle-playground/blob/main/1.JPEG)
