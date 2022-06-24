@@ -8,7 +8,7 @@ server:
 sh build_and_push.sh
 # create sagemaker endpoint
 !python create_endpoint.py \
---endpoint_ecr_image_path "726335585155.dkr.ecr.us-east-1.amazonaws.com/dalle" \
+--endpoint_ecr_image_path "726335585155.dkr.ecr.us-east-1.amazonaws.com/dalle" \ #替换成你的ecr地址
 --endpoint_name 'dalle-mini-v3' \
 --instance_type "ml.p3.2xlarge"
 ```
@@ -32,7 +32,7 @@ response = runtime.invoke_endpoint(
 result = json.loads(response["Body"].read())
 print (result)
 ```
-
+# 结果已经存储在bucket目录下
 result:
 ```
 {'result': 'success!'}
